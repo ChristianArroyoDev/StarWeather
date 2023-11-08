@@ -46,7 +46,7 @@ function callWeaApi() {
         description.innerHTML = 'Your city is feels like:'
 
 
-        if (currentWeather == 'Snow') {
+        if (currentWeather == 'Snow' || currentTemp < 0) {
             PlacePlanetName.innerHTML = 'Hoth'
             planetOutView.src = 'img/Hot_PImg.png'
 
