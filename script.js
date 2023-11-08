@@ -48,25 +48,25 @@ function callWeaApi() {
 
         if (currentWeather == 'Snow') {
             PlacePlanetName.innerHTML = 'Hoth'
-            planetOutView.src = '/img/Hot_PImg.png'
+            planetOutView.src = 'img/Hot_PImg.png'
 
         } else if ( currentWeather == 'Thunderstorm') {
             PlacePlanetName.innerHTML == 'Camino'
         } else if (currentWeather == 'Drizzle' || currentWeather == 'Rain' ) {
             PlacePlanetName.innerHTML = 'Dagobah'
-            planetOutView.src = '/img/Dag_PImg.png'
+            planetOutView.src = 'img/Dag_PImg.png'
         } else if (currentTemp >= 30) {
             PlacePlanetName.innerHTML = 'Geonosis'
-            planetOutView.src = '/img/Geo_PImg.jpg'
+            planetOutView.src = 'img/Geo_PImg.jpg'
         } else if (currentTemp < 30 && currentTemp >= 25) {
             PlacePlanetName.innerHTML = 'Ryloth'
-            planetOutView.src = '/img/Ryl_PImg.png'
+            planetOutView.src = 'img/Ryl_PImg.png'
         } else if (currentTemp < 25 && currentTemp >= 20) {
             PlacePlanetName.innerHTML = 'Coruscant'
-            planetOutView.src = '/img/Cu_PImg.gif'
+            planetOutView.src = 'img/Cu_PImg.gif'
         } else if (currentTemp < 20 && currentTemp >= 10) {
             PlacePlanetName.innerHTML = 'Naboo'
-            planetOutView.src = '/img/Nab_PImg.png'
+            planetOutView.src = 'img/Nab_PImg.png'
             
         } 
 
