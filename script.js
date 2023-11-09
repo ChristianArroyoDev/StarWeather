@@ -14,6 +14,17 @@ let description = document.querySelector('.descrip')
 let planetOutView = document.querySelector('.planetImage');
 let PlanetBack = document.querySelector('.planet-container');
 
+// GSAP animations
+gsap.timeline().from('.hero h1', {scale:0, opacity: 0, duration: .1, ease: 'power(9)', delay:.5})
+    .from('.intro', {scale:0, opacity: 0, duration: .1, ease: 'power(9)', delay:.5})
+    .from('.search', {scale:0, opacity: 0, duration: .1, ease: 'power(9)', })
+    .from('.planet-container', {scale:0, opacity: 0, duration: .1, ease: 'power(9)'})
+    .from('.image-planet', {scale:0, opacity: 0, duration: .1, ease: 'power(9)'})
+    .from('.placeCity', {scale:0, opacity: 0, duration: .1, ease: 'power(9)'})
+    .from('.placeWea', {scale:0, opacity: 0, duration: .1, ease: 'power(9)'})
+    .from('.placeTemp', {scale:0, opacity: 0, duration: .1, ease: 'power(9)'}, '<')
+    .from('.placeCount', {scale:0, opacity: 0, duration: .1, ease: 'power(9)'})
+
 
 let loaderOn = true; 
 
